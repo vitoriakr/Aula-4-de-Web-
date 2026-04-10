@@ -1,0 +1,23 @@
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.fotos{
+    width: 20%;
+    float: left;
+    margin: 2%;
+}
+#titulo{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+a:hover{
+    color: #ff0000;
+}
+
