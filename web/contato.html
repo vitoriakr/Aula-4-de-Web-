@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post"></form>
+        <input type="color" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <hr>
+        <input type="file" name="" id="">
+        <input type="radio" name="" id="">
+        <input type="range" name="" id="">
+        <hr>
+        <textarea ></textarea>
+        <select name="" id="">
+            <option value="">-- seleione --</option>
+            <optgroup label="Regiao sul">
+                <option value="RS">RS</option>
+                <option value="SC">SC</option>
+                <option value="PR">PR</option>
+            </optgroup>
+        </select>
+        <hr>
+
+        <input type="radio" name="time" id="">Grêmio
+        <input type="radio" name="time" id="">Fluminence
+        <input type="radio" name="time" id="">Juventude
+        <input type="radio" name="time" id="">Cruzeiro
+
+    <form action="./envia.php" method="post">
+        <label for="txtUsuario">Informe seu usuario:</label>              <!--*o for tem que ter o mesmo nome que o id de baixo-->
+
+        <input type="text" name="usuario" required placeholder="Digite seu usuario" id="txtUsuario">
+
+        <label for="txtSenha">Informe sua senha:</label>                 <!--*o for tem que ter o mesmo nome que o id de baixo-->
+
+        <input type="password" name="Senha" required  placeholder="Senha"id="txtSenha">
+        <input type="submit" value="Logar">
+
+    </form>
+    <br>
+    <hr>
+    <br>
+    <hr>
+    <br>
+    <form action="" method="post">
+        <ul>
+            <li type="None">
+                <li type="None">
+                    <label for="txtNome">Informe seu Nome:</label>
+                    <input type="text" name="" required id="txtNome"></li>
+                <li type="None">
+                    <label for="txtEmail">Informe seu E-mail:</label>
+                    <input type="email" name="" id="txtEmail"> 
+                </li>
+                <li type="None">
+                    <label for="txtTelefone">Informe seu telefone:</label>
+                    <input type="tel" name="" id="txtTelefone"> 
+                </li>
+                <h2>Pedidos</h2>
+                <li type="None">
+                    <input type="checkbox" name="hamburgao" id="">
+                    <label for="hambutguer1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh3LkKab-LBZAraXu0zX-H52Iob9ZQF1_HRg&s" alt="Hambúrguer 1" title="Hambúrguer 1" class="fotos" width="100px">
+                    </label>
+                    <select name="" id="">
+                        <option value="">-- ponto da carne --</option>
+                            <option value="RS">Passado</option>
+                            <option value="SC">No ponto</option>
+                            <option value="PR">Mal-Passado</option>
+                        
+                    </select>
+                    
+                    <input type="number" name="" id="">
+                </li>
+                <li type="None">
+                    <input type="checkbox" name="hamburgao" id="">
+                    <label for="hambutguer1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnrtmZjEsNJ2_DXdcA_IiO-tLrx2UCYpPClz1EijbfTg&s" alt="Hambúrguer 2" title="Hambúrguer 2" class="fotos" width="100px"> 
+                    </label>
+                    <select name="" id="">
+                        <option value="">-- ponto da carne --</option>
+                            <option value="RS">Passado</option>
+                            <option value="SC">No ponto</option>
+                            <option value="PR">Mal-Passado</option>
+                        
+                    </select>
+                    <input type="number" name="" id="">
+                </li>
+                <li type="None">
+                    <input type="checkbox" name="hamburgao" id="">
+                    <label for="hambutguer1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_J5jrnrIstLiY4lPp-6ryfPru-urXNlptqdZTHGZpdA&s" alt="Hambúrguer 3" title="Hambúrguer 3" class="fotos" width="100px">
+                    </label>
+                    <select name="" id="">
+                        <option value="">-- ponto da carne --</option>
+                            <option value="RS">Passado</option>
+                            <option value="SC">No ponto</option>
+                            <option value="PR">Mal-Passado</option>
+                        
+                    </select>
+                    <input type="number" name="" id="">
+                </li>
+                <li type="None">
+                    <input type="checkbox" name="hamburgao" id="">
+                    <label for="hambutguer1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQostckHSWkxSWwaOu45-gCP0lf26e_u3DcVcO3xaW2MQ&s" alt="Hambúrguer 4" title="Hambúrguer 4" class="fotos" width="100px">
+                    </label>
+                    <select name="" id="">
+                        <option value="">-- ponto da carne --</option>
+                            <option value="RS">Passado</option>
+                            <option value="SC">No ponto</option>
+                            <option value="PR">Mal-Passado</option>
+                        
+                    </select>
+                    <input type="number" name="" id="">
+                </li>
+            </li>
+
+        </ul>
+    </form>
+    
+        
+<!--
+    *method = get 
+    os dados aparacem na url, 
+    *mas method = post 
+    não aparece
+    *required
+    é obrigatorio digitar
+    
+-->
+    <script src="./script.js"></script>
+</body>
+</html>
