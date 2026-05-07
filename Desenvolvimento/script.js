@@ -25,5 +25,5 @@ escreve.addEventListener("click", () =>{
 
     let result = titulo.textContent ="IMC: "+imc;
 
-    if
+    
 });
