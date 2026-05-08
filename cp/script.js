@@ -8,26 +8,25 @@ escreve.addEventListener("click", () =>{
     const titulo = document.getElementById("imc");
 
     //let result = titulo.textContent ="IMC: "+imc;(codigo que eu estava fazendo antes)
-    titulo.textContent ="IMC: "+imc;
+    titulo.textContent ="IMC: "+ imc.toFixed(2);
 
     let classificacao = "";
     const elemento = document.getElementById("classificacao_pessoas");
     if (imc < 18.5){
-        classificacao = "Menor que 18.5, baixo peso!";
-        
-        // Altera a cor usando CSS style.color
+        classificacao = "Menor que 18.5, abaixo do peso!";
+
         elemento.style.backgroundColor  = "forestgreen"; 
-    }else if (18.5 < imc &&  imc  < 24.99){
-        classificacao = "De 18.5 a 24.99, Normal!";
+    }else if (imc >= 18.5 && imc <= 24.9){
+        classificacao = "De 18.5 a 24.9, peso normal!";
         
         elemento.style.backgroundColor  = "goldenrod"; 
-    }else if (25 < imc && imc < 29.99){
-        classificacao = "De 25 a 29.99, Sobrepeso!";
+    }else if (imc >= 25.0 && imc <= 29.9){
+        classificacao = "De 25 a 29.9, sobrepeso!";
         
         elemento.style.backgroundColor  = "darkorange";
     }else {
-        classificacao = "Maior de 30, Obesidade!";
-       
+        classificacao = "Maior de 30, obesidade!";
+
         elemento.style.backgroundColor  = "red";
     }
     document.getElementById("classificacao_pessoas").innerHTML = classificacao;
